@@ -8,10 +8,15 @@ While Quasar does support Electron, it does not come with Electron configured no
 $ quasar mode add electron
 ```
 
-When you want to run de quatar development server and you get an error "error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory", try this:
+When you want to run de quatar development server and you get an error "error while loading shared libraries: **libatk-1.0.so.0**: cannot open shared object file: No such file or directory", try this:
 
 ```
 $ sudo apt install -y libatk1.0-0
 ```
 
-**NOTE**: We are currently facing that the above error still remains...
+When you want to run de quatar development server and you get an error "error while loading shared libraries: **libatk-bridge-2.0.so.0**: cannot open shared object file: No such file or directory", try this:
+
+```
+$ sudo apt install -y libatk-bridge-2.0.so.0
+```
+
