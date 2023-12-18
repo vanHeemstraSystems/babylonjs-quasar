@@ -48,3 +48,10 @@ When you want to run de quatar development server and you get an error "error wh
 $ sudo apt-get update
 $ sudo apt-get install libgtk-3-0
 ```
+
+When you want to run de quatar development server and you get an error "error while loading shared libraries: **libgbm.so.1**: cannot open shared object file: No such file or directory", try this:
+
+```
+$ sudo apt-get update
+$ sudo apt-get install libgbm1
+```
