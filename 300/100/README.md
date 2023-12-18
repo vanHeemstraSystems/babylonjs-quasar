@@ -184,11 +184,12 @@ Enjoy! - Quasar Team
 containers/app/babylonjs/package.json
 
 Follow the recommendation:
-
-  cd babylonjs
-  yarn #or: npm install
-  yarn lint --fix # or: npm run lint -- --fix
-  quasar dev # or: yarn quasar dev # or: npx quasar dev
+```
+$ cd babylonjs
+$ yarn #or: npm install
+$ yarn lint --fix # or: npm run lint -- --fix
+$ quasar dev # or: yarn quasar dev # or: npx quasar dev
+```
 
 In a separate browser window or in preview, you will see the page of your newly created Quasar App:
 
