@@ -55,3 +55,5 @@ When you want to run de quatar development server and you get an error "error wh
 $ sudo apt-get update
 $ sudo apt-get install libgbm1
 ```
+
+When you want to run de quatar development server and you get an error "**Missing X server or $DISPLAY**, read this: [Developing native UI applications in Gitpod](https://www.gitpod.io/blog/native-ui-with-vnc)
