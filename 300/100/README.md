@@ -4,6 +4,12 @@ Start from within the following directory:
 
 ```containers/app/```
 
+If you haven't already, first install Quasar CLI:
+
+```
+$ yarn global add @quasar/cli
+```
+
 Run the following command to start the Quasar basic application creation process:
 
 ```
