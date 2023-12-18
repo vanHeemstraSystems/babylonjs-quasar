@@ -192,6 +192,6 @@ Follow the recommendation:
 
 In a separate browser window or in preview, you will see the page of your newly created Quasar App:
 
-
+![quasar_app](https://github.com/vanHeemstraSystems/babylonjs-quasar/assets/1499433/70953934-edbb-4af6-85fe-05b158241596)
 
 Our Quasar base is now ready for use, and we can move on to the next part - getting our Electron mode ready.
