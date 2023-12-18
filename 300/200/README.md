@@ -8,15 +8,43 @@ While Quasar does support Electron, it does not come with Electron configured no
 $ quasar mode add electron
 ```
 
-When you want to run de quatar development server and you get an error "error while loading shared libraries: **libatk-1.0.so.0**: cannot open shared object file: No such file or directory", try this:
+When you want to run de quatar development server: 
 
 ```
-$ sudo apt install -y libatk1.0-0
+$ quasar dev -m electron
+```
+
+And you get an error "error while loading shared libraries: **libatk-1.0.so.0**: cannot open shared object file: No such file or directory", try this:
+
+```
+$ sudo apt-get update
+$ sudo apt-get install libatk1.0-0
 ```
 
 When you want to run de quatar development server and you get an error "error while loading shared libraries: **libatk-bridge-2.0.so.0**: cannot open shared object file: No such file or directory", try this:
 
 ```
-$ sudo apt install -y libatk-bridge-2.0.so.0
+$ sudo apt-get update
+$ sudo apt-get install libatk-bridge2.0-0
 ```
 
+When you want to run de quatar development server and you get an error "error while loading shared libraries: **libcups.so.2**: cannot open shared object file: No such file or directory", try this:
+
+```
+$ sudo apt-get update
+$ sudo apt-get install libcups2
+```
+
+When you want to run de quatar development server and you get an error "error while loading shared libraries: **libdrm.so.2**: cannot open shared object file: No such file or directory", try this:
+
+```
+$ sudo apt-get update
+$ sudo apt-get install libdrm2
+```
+
+When you want to run de quatar development server and you get an error "error while loading shared libraries: **libgtk-3.so.0**: cannot open shared object file: No such file or directory", try this:
+
+```
+$ sudo apt-get update
+$ sudo apt-get install libgtk-3-0
+```
