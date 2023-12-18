@@ -190,4 +190,8 @@ Follow the recommendation:
   yarn lint --fix # or: npm run lint -- --fix
   quasar dev # or: yarn quasar dev # or: npx quasar dev
 
+In a separate browser window or in preview, you will see the page of your newly created Quasar App:
+
+
+
 Our Quasar base is now ready for use, and we can move on to the next part - getting our Electron mode ready.
