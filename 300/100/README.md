@@ -191,6 +191,33 @@ $ yarn lint --fix # or: npm run lint -- --fix
 $ quasar dev # or: yarn quasar dev # or: npx quasar dev
 ```
 
+You will be prompted:
+
+```
+
+ .d88888b.
+d88P" "Y88b
+888     888
+888     888 888  888  8888b.  .d8888b   8888b.  888d888
+888     888 888  888     "88b 88K          "88b 888P"
+888 Y8b 888 888  888 .d888888 "Y8888b. .d888888 888
+Y88b.Y8b88P Y88b 888 888  888      X88 888  888 888
+ "Y888888"   "Y88888 "Y888888  88888P' "Y888888 888
+       Y8b
+
+
+ » Reported at............ 12/18/2023 12:46:28 PM
+ » App dir................ /workspace/babylonjs-quasar/containers/app/babylonjs
+ » App URL................ http://localhost:9000/
+                           http://10.0.5.2:9000/
+ » Dev mode............... spa
+ » Pkg quasar............. v2.14.2
+ » Pkg @quasar/app-vite... v1.7.1
+ » Browser target......... es2019|edge88|firefox78|chrome87|safari13.1
+
+ App • Opening default browser at http://localhost:9000/
+```
+
 In a separate browser window or in preview, you will see the page of your newly created Quasar App:
 
 ![quasar_app](https://github.com/vanHeemstraSystems/babylonjs-quasar/assets/1499433/70953934-edbb-4af6-85fe-05b158241596)
