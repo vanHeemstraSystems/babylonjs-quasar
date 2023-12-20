@@ -327,4 +327,11 @@ $ yarn global add @quasar/cli
 
 Then try again.
 
-WE ARE HERE ...
+![quasar_app_native_gui_blue_box](https://github.com/vanHeemstraSystems/babylonjs-quasar/assets/1499433/250c840d-4d80-4189-aefb-bf8fafd8d663)
+
+
+As you can see we now have a basic BabylonJS and Quasar application suitable for game development, or 3D application development generally. From here we can begin developing our application and compile it for platform-agnostic desktop use with Electron, mobile applications with Cordova, or build a Javascript package we could place on a web page.
+
+From the onset we will be using OpenGL by means of WebGL. Vulkan can be used via WebGPU, however its support is limited as of yet due to WebGPU's current early draft stage, and at present you should not use it for any sort of production environment.
+
+In the next step we will finish this tutorial by loading and displaying a 3D model.
