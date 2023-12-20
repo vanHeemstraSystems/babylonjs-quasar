@@ -74,3 +74,43 @@ You should see in your browser the following landing page:
 
 ![quasar_app_native_gui](https://github.com/vanHeemstraSystems/babylonjs-quasar/assets/1499433/50d6de1d-b896-4327-b297-14535880e748)
 
+## Removing or hiding the menubar
+
+You'll note that the Electron window comes with a default menu bar. While in your use case this may be preferable, and you would wish to alter this menu rather than remove it, it is more likely we want to get rid of this as user interfacing will likely be handled in-app.
+
+To do this, let's open the project folder in our IDE and navigate to ```containers/app/babylonjs/src-electron/electron-main.ts```.
+
+There are two approaches we could take here - we could use a frameless window, or simply remove the menubar.
+
+**Frameless**: remove the windowframe altogether, leaving GUI design wholly up to our application.
+
+For completeness however, you can remove the frame entirely by passing ```frame: false``` as an option during BrowserWindow instantiation thusly:
+
+```
+  /**
+   * Initial window options
+   */
+  mainWindow = new BrowserWindow({
+    ...
+    frame: false,
+    ...
+  });
+```
+containers/app/babylonjs/src-electron/electron-main.ts
+
+**Removing the menubar**: this simply removes the default menubar, but retains your user's native window management system.
+
+In our tutorial we will hold onto the window frame for convenience, as this does not prevent frameless fullscreen display anyway.
+
+In order to simply remove the menu bar without touching the window frame, we need to pass ```mainWindow.setMenu(null);``` ahead of connecting Electron's browser to our internal server, as such:
+
+```
+...
+mainWindow.setMenu(null);
+mainWindow.loadURL(process.env.APP_URL);
+...  
+```
+containers/app/babylonjs/src-electron/electron-main.ts
+
+
+WE ARE HERE ....
