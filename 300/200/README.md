@@ -14,6 +14,16 @@ When you want to run de quatar development server:
 $ quasar dev -m electron
 ```
 
+**WARNING**: If you get any errors, make sure you have a ```.gitpod.yml``` file at the root of this repository with the following content:
+
+```
+# Image of workspace. Learn more: https://www.gitpod.io/docs/configure/workspaces/workspace-image
+image: gitpod/workspace-full-vnc:latest
+```
+.gitpod.yml
+
+The above will facilitate Gitpod for development of Native GUIs.
+
 And you get an error "error while loading shared libraries: **libatk-1.0.so.0**: cannot open shared object file: No such file or directory", try this:
 
 ```
@@ -57,3 +67,6 @@ $ sudo apt-get install libgbm1
 ```
 
 When you want to run de quatar development server and you get an error "**Missing X server or $DISPLAY**, read this: [Developing native UI applications in Gitpod](https://www.gitpod.io/blog/native-ui-with-vnc)
+
+Let's continue ...
+
