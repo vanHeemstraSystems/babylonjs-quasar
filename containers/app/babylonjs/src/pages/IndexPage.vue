@@ -3,11 +3,11 @@
 </template>
 
 <script>
-import { ref, onMounted, onUnmounted } from "vue";
-import { createScene } from "../scenes/StartingScene";
+import { ref, onMounted, onUnmounted } from 'vue';
+import { createScene } from '../scenes/StartingScene';
 
 export default {
-  name: "BabylonScene",
+  name: 'BabylonScene',
   setup() {
     const bjsCanvas = ref(null);
 
@@ -15,12 +15,12 @@ export default {
       if (bjsCanvas.value) {
         onResize();
         createScene(bjsCanvas.value);
-        window.addEventListener("resize", onResize);
+        window.addEventListener('resize', onResize);
       }
     });
 
     onUnmounted(() => {
-      window.removeEventListener("resize", onResize);
+      window.removeEventListener('resize', onResize);
     });
 
     function onResize() {

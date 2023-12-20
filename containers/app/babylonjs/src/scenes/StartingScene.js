@@ -13,7 +13,7 @@ const createScene = (canvas) => {
     const engine = new Engine(canvas);
     const scene = new Scene(engine);
     const box = BABYLON.Mesh.CreateBox('box', 2, scene);
-    const boxMaterial = new BABYLON.StandardMaterial("material", scene);
+    const boxMaterial = new BABYLON.StandardMaterial('material', scene);
     boxMaterial.emissiveColor = new BABYLON.Color3(0, 0.58, 0.86);
     box.material = boxMaterial;
 

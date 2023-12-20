@@ -319,7 +319,7 @@ Your Quasar / BabylonJS application is now essentially ready. Let's run it to se
 ```
 $ yarn #or: npm install
 $ yarn lint --fix # or: npm run lint -- --fix
-$ quasar dev # or: yarn quasar dev # or: npx quasar dev
+$ quasar dev -m electron # or: yarn quasar dev -m electron # or: npx quasar dev -m electron
 ```
 
 **NOTE**: if quasar is not recognized as a command, install quasar globally (again):
