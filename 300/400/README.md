@@ -51,7 +51,8 @@ const createScene = (canvas) => {
 
     scene.load;
 
-    SceneLoader.ImportMesh(null, '/assets/', 'lego_baseplate_48x48_4186_dark_grey.gltf', scene);
+    // SceneLoader.ImportMesh(null, '/assets/', 'lego_baseplate_48x48_4186_dark_grey.gltf', scene);
+    SceneLoader.ImportMesh('home', '/assets/', 'scene.gltf', scene);
 
     engine.runRenderLoop(() => {
         scene.render();
