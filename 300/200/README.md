@@ -112,5 +112,18 @@ mainWindow.loadURL(process.env.APP_URL);
 ```
 containers/app/babylonjs/src-electron/electron-main.ts
 
+As a last point, we will cover configuring Electron for fullscreen-exclusive display. By adding fullscreen: true as an option when our BrowserWindow instance is created, we can have our application start in an irreversible fullscreen mode, like so:
 
-WE ARE HERE ....
+```
+  /**
+   * Initial window options
+   */
+  mainWindow = new BrowserWindow({
+    ...
+    fullscreen: true,
+    ...
+  });
+```
+containers/app/babylonjs/src-electron/electron-main.ts
+
+That's it! Our application is now ready for the next step: BabylonJS integration.
