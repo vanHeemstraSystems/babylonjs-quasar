@@ -316,7 +316,18 @@ We next create a light for our scene, followed by a simple box with a default ma
 
 Your Quasar / BabylonJS application is now essentially ready. Let's run it to see what we get. Return to the console, and execute the following command.
 
+```
+$ yarn #or: npm install
+$ yarn lint --fix # or: npm run lint -- --fix
+$ quasar dev # or: yarn quasar dev # or: npx quasar dev
+```
 
+**NOTE**: if quasar is not recognized as a command, install quasar globally (again):
 
+```
+$ yarn global add @quasar/cli
+```
+
+Then try again.
 
 WE ARE HERE ...
