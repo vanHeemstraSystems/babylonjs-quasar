@@ -271,40 +271,37 @@ This will be where we export the function that creates our scene. Enter the foll
 
 ```
 import {
-  Engine,
-  Scene,
-  SceneLoader,
-  FreeCamera,
-  Vector3,
-  HemisphericLight,
+    Engine,
+    Scene,
+    FreeCamera,
+    Vector3,
+    MeshBuilder,
+    StandardMaterial,
+    Color3,
+    HemisphericLight,
 } from '@babylonjs/core';
 
-import '@babylonjs/loaders/glTF';
-
 const createScene = (canvas) => {
-  const engine = new Engine(canvas);
-  const scene = new Scene(engine);
-  const box = BABYLON.Mesh.CreateBox('box', 2, scene);
-  const boxMaterial = new BABYLON.StandardMaterial('material', scene);
-  boxMaterial.emissiveColor = new BABYLON.Color3(0, 0.58, 0.86);
-  box.material = boxMaterial;
+    const engine = new Engine(canvas);
+    const scene = new Scene(engine);
 
-  const camera = new FreeCamera('camera1', new Vector3(0, 5, -10), scene);
-  camera.setTarget(Vector3.Zero());
-  camera.attachControl(canvas, true);
+    const camera = new FreeCamera('camera1', new Vector3(0, 5, -10), scene);
+    camera.setTarget(Vector3.Zero());
+    camera.attachControl(canvas, true);
 
-  new HemisphericLight('light', Vector3.Up(), scene);
+    new HemisphericLight('light', Vector3.Up(), scene);
 
-  scene.load;
+    const box = MeshBuilder.CreateBox('box', { size: 2 }, scene);
+    const material = new StandardMaterial('box-material', scene);
+    material.diffuseColor = Color3.Blue();
+    box.material = material;
 
-  // SceneLoader.ImportMesh(null, '/assets/', 'scene.gltf', scene);
-
-  engine.runRenderLoop(() => {
-    scene.render();
-  });
+    engine.runRenderLoop(() => {
+        scene.render();
+    });
 };
 
-export { createScene };
+export { createScene }; 
 ```
 containers/app/babylonjs/src/scenes/StartingScene.js
 
