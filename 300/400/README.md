@@ -6,6 +6,8 @@ The package can be downloaded from: https://opengameart.org/content/stellwerk-a
 
 Let's begin by downloading this package and unpacking the file. From here we'll create a directory called "assets" in our ```containers/app/babylonjs/public``` directory, and copy our files over.
 
+**NOTE**: Before being able to upload the above model, due to size restrictions, we upload a model called ```lego_baseplate_48x48_4186_dark_grey.gltf``` in the meantime.
+
 
 
 WE ARE HERE ...
