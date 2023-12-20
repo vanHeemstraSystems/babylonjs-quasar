@@ -68,5 +68,9 @@ $ sudo apt-get install libgbm1
 
 When you want to run de quatar development server and you get an error "**Missing X server or $DISPLAY**, read this: [Developing native UI applications in Gitpod](https://www.gitpod.io/blog/native-ui-with-vnc)
 
-Let's continue ...
+Let's continue, if all is well ...
+
+You should see in your browser the following landing page:
+
+![quasar_app_native_gui](https://github.com/vanHeemstraSystems/babylonjs-quasar/assets/1499433/50d6de1d-b896-4327-b297-14535880e748)
 
