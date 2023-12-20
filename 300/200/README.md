@@ -126,4 +126,6 @@ As a last point, we will cover configuring Electron for fullscreen-exclusive dis
 ```
 containers/app/babylonjs/src-electron/electron-main.ts
 
+![quasar_app_native_gui_fullscreen](https://github.com/vanHeemstraSystems/babylonjs-quasar/assets/1499433/5f196f57-3784-4aaf-9249-4bbd5c5ecc10)
+
 That's it! Our application is now ready for the next step: BabylonJS integration.
