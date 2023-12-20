@@ -1,5 +1,15 @@
 # 100 - Step 1: Creating a base Quasar application
 
+**WARNING**: Make sure at the **root** of this repository you have a ```.gitpod.yml``` file with the following content:
+
+```
+# Image of workspace. Learn more: https://www.gitpod.io/docs/configure/workspaces/workspace-image
+image: gitpod/workspace-full-vnc:latest
+```
+.gitpod.yml
+
+The above will allow for Gitpod to be used to develop Native GUIs.
+
 Start from within the following directory:
 
 ```containers/app/```
