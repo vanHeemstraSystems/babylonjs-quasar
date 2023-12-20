@@ -1,12 +1,12 @@
 import {
     Engine,
     Scene,
-    SceneLoader,
+    // SceneLoader,
     FreeCamera,
     Vector3,
-    // MeshBuilder,
-    // StandardMaterial,
-    // Color3,
+    MeshBuilder,
+    StandardMaterial,
+    Color3,
     HemisphericLight,
 } from '@babylonjs/core';
 
@@ -22,17 +22,17 @@ const createScene = (canvas) => {
 
     new HemisphericLight('light', Vector3.Up(), scene);
 
-    /*
+    
     const box = MeshBuilder.CreateBox('box', { size: 2 }, scene);
     const material = new StandardMaterial('box-material', scene);
     material.diffuseColor = Color3.Blue();
     box.material = material;
-    */
+    
 
-    scene.load;
+    // scene.load;
 
     // SceneLoader.ImportMesh(null, '/assets/', 'lego_baseplate_48x48_4186_dark_grey.gltf', scene);
-    SceneLoader.ImportMesh(null, '/assets/', 'scene.gltf', scene);
+    // SceneLoader.ImportMesh(null , '/assets/', 'scene.gltf', scene);
 
     engine.runRenderLoop(() => {
         scene.render();
