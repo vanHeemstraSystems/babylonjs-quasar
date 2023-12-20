@@ -12,6 +12,11 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.23.6.tgz#ba1c9e512bda72a47e285ae42aff9d2a635a9e3b"
   integrity sha512-Z2uID7YJ7oNvAI20O9X0bblw7Qqs8Q2hFy0R9tAfnfLkp5MW0UH9eUvnDSnFwKZ0AvgS1ucqR4KzvVHgnke1VQ==
 
+"@babylonjs/core@^6.34.3":
+  version "6.34.3"
+  resolved "https://registry.yarnpkg.com/@babylonjs/core/-/core-6.34.3.tgz#2bb978d92716c47e8fcd5b7cd66619b15f82be74"
+  integrity sha512-dvUANa8LACSJEpaIbZ4AYkVldcFiEFt1hs1rQBeDAvEEWNI8R+dbC8jss7bzEa8CyDQpUS6QKR5bnpZyMiKDvw==
+
 "@babylonjs/inspector@^6.34.3":
   version "6.34.3"
   resolved "https://registry.yarnpkg.com/@babylonjs/inspector/-/inspector-6.34.3.tgz#b23d31dd74abb6def12392a006dcafd8fc22ec53"
@@ -20,6 +25,11 @@
     "@fortawesome/fontawesome-svg-core" "^6.1.0"
     "@fortawesome/free-regular-svg-icons" "^6.0.0"
     "@fortawesome/free-solid-svg-icons" "^6.0.0"
+
+"@babylonjs/loaders@^6.34.3":
+  version "6.34.3"
+  resolved "https://registry.yarnpkg.com/@babylonjs/loaders/-/loaders-6.34.3.tgz#a0edfc28d4991a2eae72439f51079bc9d7925336"
+  integrity sha512-0VltpEqdEZ5D9DLyFX3cZ7cWqFUiMASKnY8bzgF+dXLg812b6OcAyGZbD3yE+74BtZHTzNJWb9ozpoaQZVIrOA==
 
 "@electron/get@^2.0.0":
   version "2.0.3"

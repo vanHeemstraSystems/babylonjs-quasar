@@ -1,1 +1,7 @@
-// app global css in SCSS form
+// app global css in SCSS format
+body {
+    overflow: hidden;
+}
+canvas {
+    outline: none;
+}
