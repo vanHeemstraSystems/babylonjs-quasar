@@ -15,7 +15,8 @@ function createWindow() {
     icon: path.resolve(__dirname, 'icons/icon.png'), // tray icon
     width: 1000,
     height: 600,
-    // frame: false,
+    frame: false,
+    autoHideMenuBar: true,
     fullscreen: true,
     useContentSize: true,
     webPreferences: {
@@ -26,6 +27,7 @@ function createWindow() {
   });
   
   mainWindow.setMenu(null);
+  mainWindow.setMenuBarVisibility(false);
   mainWindow.loadURL(process.env.APP_URL);
 
   if (process.env.DEBUGGING) {

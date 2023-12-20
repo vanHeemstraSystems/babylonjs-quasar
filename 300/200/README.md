@@ -93,6 +93,7 @@ For completeness however, you can remove the frame entirely by passing ```frame:
   mainWindow = new BrowserWindow({
     ...
     frame: false,
+    autoHideMenuBar: true,
     ...
   });
 ```
@@ -107,6 +108,7 @@ In order to simply remove the menu bar without touching the window frame, we nee
 ```
 ...
 mainWindow.setMenu(null);
+mainWindow.setMenuBarVisibility(false);
 mainWindow.loadURL(process.env.APP_URL);
 ...  
 ```
@@ -125,6 +127,8 @@ As a last point, we will cover configuring Electron for fullscreen-exclusive dis
   });
 ```
 containers/app/babylonjs/src-electron/electron-main.ts
+
+**NOTE**: The blue header along the top is part of the HTML markup. It is not the frame.
 
 ![quasar_app_native_gui_fullscreen](https://github.com/vanHeemstraSystems/babylonjs-quasar/assets/1499433/5f196f57-3784-4aaf-9249-4bbd5c5ecc10)
 
