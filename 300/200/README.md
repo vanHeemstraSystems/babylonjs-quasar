@@ -140,6 +140,8 @@ Tests show that [Tauri outperforms Electron](https://www.youtube.com/watch?v=jWg
 
 Read https://crabnebula.dev/about and try https://devtools.crabnebula.dev/
 
+Then follow "Migrating from Electron to Tauri" at https://www.youtube.com/watch?v=fMTtMRLUnIY
+
 MORE ...
 
 **NOTE**: The blue header along the top is part of the HTML markup as defined in ```containers/app/babylonjs/src/layouts/MainLayout.vue```. It is not the frame.
