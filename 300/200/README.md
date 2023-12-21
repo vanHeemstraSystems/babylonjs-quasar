@@ -136,7 +136,7 @@ Tauri is based on the Java Development Kit (JDK), whereas Electron is based on C
 
 Tests show that [Tauri outperforms Electron](https://www.youtube.com/watch?v=jWgLOtm9le8), hence why will attemp to also use Tauri.
 
-Read https://crabnebula.dev/about
+Read https://crabnebula.dev/about and try https://devtools.crabnebula.dev/
 
 MORE ...
 
