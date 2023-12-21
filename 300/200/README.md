@@ -153,6 +153,8 @@ Check out https://www.npmjs.com/package/@quasar/tauri/v/0.0.1-utility.5
 
 More info at https://github.com/quasarframework/quasar/discussions/12509
 
+Example at https://github.com/ricardodarocha/vite-quasar-tauri-template
+
 MORE ...
 
 **NOTE**: The blue header along the top is part of the HTML markup as defined in ```containers/app/babylonjs/src/layouts/MainLayout.vue```. It is not the frame.
