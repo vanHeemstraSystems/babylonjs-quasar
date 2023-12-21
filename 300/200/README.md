@@ -151,6 +151,8 @@ Then follow "Migrating from Electron to Tauri" at https://www.youtube.com/watch?
 
 Check out https://www.npmjs.com/package/@quasar/tauri/v/0.0.1-utility.5
 
+More info at https://github.com/quasarframework/quasar/discussions/12509
+
 MORE ...
 
 **NOTE**: The blue header along the top is part of the HTML markup as defined in ```containers/app/babylonjs/src/layouts/MainLayout.vue```. It is not the frame.
