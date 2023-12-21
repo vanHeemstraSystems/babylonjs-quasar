@@ -136,6 +136,8 @@ Tauri is based on the Java Development Kit (JDK), whereas Electron is based on C
 
 Tests show that [Tauri outperforms Electron](https://www.youtube.com/watch?v=jWgLOtm9le8), hence why will attemp to also use Tauri.
 
+Read https://crabnebula.dev/about
+
 MORE ...
 
 **NOTE**: The blue header along the top is part of the HTML markup as defined in ```containers/app/babylonjs/src/layouts/MainLayout.vue```. It is not the frame.
