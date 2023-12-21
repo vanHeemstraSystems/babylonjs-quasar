@@ -142,6 +142,8 @@ Read https://crabnebula.dev/about and try https://devtools.crabnebula.dev/
 
 Then follow "Migrating from Electron to Tauri" at https://www.youtube.com/watch?v=fMTtMRLUnIY and try "Tauri/Quasar - Proof of Concept" at https://github.com/Zondax/tauri-quasar-example
 
+Check out https://www.npmjs.com/package/@quasar/tauri/v/0.0.1-utility.5
+
 MORE ...
 
 **NOTE**: The blue header along the top is part of the HTML markup as defined in ```containers/app/babylonjs/src/layouts/MainLayout.vue```. It is not the frame.
