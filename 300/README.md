@@ -4,7 +4,7 @@
 
 See [README.md](./100/README.md)
 
-## 200 - Step 2: Adding Electron
+## 200 - Step 2: Adding Electron or Tauri
 
 See [README.md](./200/README.md)
 
