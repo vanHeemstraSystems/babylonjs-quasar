@@ -134,7 +134,7 @@ containers/app/babylonjs/src-electron/electron-main.ts
 
 Tauri is based on the Java Development Kit (JDK), whereas Electron is based on Chromium.
 
-Tests show that [Tauri outperforms Electron](), hence why will attemp to also use Tauri.
+Tests show that [Tauri outperforms Electron](https://www.youtube.com/watch?v=jWgLOtm9le8), hence why will attemp to also use Tauri.
 
 MORE ...
 
