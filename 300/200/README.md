@@ -1,5 +1,7 @@
 # 200 - Step 2: Adding Electron or Tauri
 
+Watch "Tauri vs Electron in 2023 & beyond" at https://www.youtube.com/watch?v=VvpXrzn48ms
+
 # Electron
 
 See https://quasar.dev/quasar-cli-vite/developing-electron-apps/preparation/
