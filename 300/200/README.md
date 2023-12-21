@@ -138,6 +138,13 @@ Tauri is based on the Java Development Kit (JDK), whereas Electron is based on C
 
 Tests show that [Tauri outperforms Electron](https://www.youtube.com/watch?v=jWgLOtm9le8), hence why will attemp to also use Tauri.
 
+## 5 Reasons to consider Tauri
+- BUNDLE SIZE of a vanilla Tauri app is less than 3 MB - about 140 MB smaller than what you get with Electron.
+- MEMORY FOOTPRINT is less than half of the size of an Electron app built from the same codebase.
+- SECURITY is Tauri's biggest priority and we take it so seriously that we innovate to keep hackers out of your apps.
+- RELIABILITY of the underlying code base is why critical libraries have been forked and will be perpetually maintained.
+- FLOSS licensing is regretfully impossible with downstream Chromium consumers, like Electron.
+
 Read https://crabnebula.dev/about and try https://devtools.crabnebula.dev/
 
 Then follow "Migrating from Electron to Tauri" at https://www.youtube.com/watch?v=fMTtMRLUnIY and try "Tauri/Quasar - Proof of Concept" at https://github.com/Zondax/tauri-quasar-example
