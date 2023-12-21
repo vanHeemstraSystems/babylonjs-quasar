@@ -140,7 +140,7 @@ Tests show that [Tauri outperforms Electron](https://www.youtube.com/watch?v=jWg
 
 Read https://crabnebula.dev/about and try https://devtools.crabnebula.dev/
 
-Then follow "Migrating from Electron to Tauri" at https://www.youtube.com/watch?v=fMTtMRLUnIY
+Then follow "Migrating from Electron to Tauri" at https://www.youtube.com/watch?v=fMTtMRLUnIY and try "Tauri/Quasar - Proof of Concept" at https://github.com/Zondax/tauri-quasar-example
 
 MORE ...
 
