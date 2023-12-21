@@ -1,4 +1,6 @@
-# 200 - Step 2: Adding Electron
+# 200 - Step 2: Adding Electron or Tauri
+
+# Electron
 
 See https://quasar.dev/quasar-cli-vite/developing-electron-apps/preparation/
 
@@ -127,6 +129,14 @@ As a last point, we will cover configuring Electron for fullscreen-exclusive dis
   });
 ```
 containers/app/babylonjs/src-electron/electron-main.ts
+
+# Tauri
+
+Tauri is based on the Java Development Kit (JDK), whereas Electron is based on Chromium.
+
+Tests show that [Tauri outperforms Electron](), hence why will attemp to also use Tauri.
+
+MORE ...
 
 **NOTE**: The blue header along the top is part of the HTML markup as defined in ```containers/app/babylonjs/src/layouts/MainLayout.vue```. It is not the frame.
 
